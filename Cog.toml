@@ -1,0 +1,7 @@
+[cog]
+name = "greet-more"
+version = "1.0.0"
+module = "GreetMore"
+
+[dependencies]
+Greet = { git = "https://github.com/quarz-lang/greet", tag = "v1.1.0" }

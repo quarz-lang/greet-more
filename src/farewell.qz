@@ -1,0 +1,8 @@
+# Says goodbye with greet's `Greeter#bye` (greet 1.1.0 or newer), naming
+# this cog.
+#
+# ```
+# GreetMore.farewell("Ann")   # => "Goodbye, Ann. (greet-more 1.0.0)"
+# ```
+def self.farewell(name: String) -> String =
+  Greet::Greeter.new(name).bye + " (#{cog.name} #{cog.version})"

@@ -1,0 +1,7 @@
+require "test"
+
+class FarewellTest < Test::Case
+  def test_farewell -> Void
+    assert_equal("Goodbye, Ann. (greet-more 1.0.0)", GreetMore.farewell("Ann"))
+  end
+end
