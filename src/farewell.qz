@@ -2,7 +2,7 @@
 # this cog.
 #
 # ```
-# GreetMore.farewell("Ann")   # => "Goodbye, Ann. (greet-more 1.0.0)"
+# GreetMore.farewell("Ann")   # => "Goodbye, Ann. (greet-more 1.1.0)"
 # ```
-def self.farewell(name: String) -> String =
+public def farewell(name: String) -> String =
   Greet::Greeter.new(name).bye + " (#{cog.name} #{cog.version})"
