@@ -13,7 +13,7 @@ Greet     = { git = "https://github.com/quarz-lang/greet", tag = "v1.0.0" }
 GreetMore = { git = "https://github.com/quarz-lang/greet-more", tag = "v1.1.0" }
 ```
 
-```ruby
+```crystal
 puts GreetMore.farewell("Quarz")   # => Goodbye, Quarz. (greet-more 1.1.0)
 ```
 
